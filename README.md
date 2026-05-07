@@ -4,7 +4,7 @@ A pixel-perfect, responsive product listing page for a premium indoor plants sto
 
 ## Live Demo
 
-[Deployed URL will be added here after deployment]
+[View Live Demo](https://softdef-assignment-frontend.vercel.app/)
 
 ## Tech Stack
 
