@@ -34,7 +34,7 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-8 text-sm text-gray-400">
           <li>
             <Link href="#" className="hover:text-white transition-colors">
-              About
+              Home
             </Link>
           </li>
           <li className="relative">
@@ -43,7 +43,7 @@ export default function Navbar() {
               onMouseEnter={() => setPlantsDropdown(true)}
               onMouseLeave={() => setPlantsDropdown(false)}
             >
-              Our Plants
+              Plants Type
               <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M6 9l6 6 6-6" />
               </svg>
@@ -78,12 +78,12 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="#" className="hover:text-white transition-colors">
-              Tours
+              More
             </Link>
           </li>
           <li>
             <Link href="#" className="hover:text-white transition-colors">
-              Search
+              Contact
             </Link>
           </li>
         </ul>
@@ -130,16 +130,16 @@ export default function Navbar() {
           style={{ borderColor: 'rgba(255,255,255,0.07)' }}
         >
           <Link href="#" className="text-gray-400 hover:text-white text-sm pt-4" onClick={() => setMenuOpen(false)}>
-            About
+            Home
           </Link>
           <Link href="#trending" className="text-gray-400 hover:text-white text-sm" onClick={() => setMenuOpen(false)}>
-            Our Plants
+            Plants Type
           </Link>
           <Link href="#" className="text-gray-400 hover:text-white text-sm" onClick={() => setMenuOpen(false)}>
-            Tours
+            More
           </Link>
           <Link href="#" className="text-gray-400 hover:text-white text-sm" onClick={() => setMenuOpen(false)}>
-            Search
+            Contact
           </Link>
         </div>
       )}

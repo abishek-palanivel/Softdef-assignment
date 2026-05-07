@@ -55,7 +55,7 @@ export default function Hero() {
                   <polygon points="5 3 19 12 5 21 5 3" />
                 </svg>
               </span>
-              For Plants
+              Live Demo...
             </button>
           </div>
 
@@ -78,7 +78,7 @@ export default function Hero() {
               />
             </div>
             <div>
-              <p className="text-white text-xs font-semibold">Sunita Joshi</p>
+              <p className="text-white text-xs font-semibold">Ronnie Hamill</p>
               <div className="text-yellow-400 text-xs mb-1">★★★★★</div>
               <p className="text-xs leading-snug" style={{ color: '#7a9a7a' }}>
                 Amazing plants! My workspace has never looked better.

@@ -3,26 +3,27 @@ import Image from 'next/image'
 const reviews = [
   {
     id: 1,
-    name: 'Sheily Gusse',
-    rating: 5,
+    name: 'Shelly Russel',
+    rating: 4.5,
     text: 'The plants arrived in perfect condition. Absolutely love how they have transformed my living room. FloraVision never disappoints!',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80',
   },
   {
     id: 2,
-    name: 'Lola Rolfson',
-    rating: 5,
+    name: 'Lula Rolfson',
+    rating: 4.5,
     text: 'Such a great selection of indoor plants. The packaging was eco-friendly and everything arrived healthy. Will definitely order again.',
     avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&q=80',
   },
   {
     id: 3,
-    name: 'Carl Haute',
-    rating: 4,
+    name: 'Carol Huels',
+    rating: 4.5,
     text: 'Really impressed with the quality. My aglaonema is thriving and gets compliments from everyone who visits. Highly recommend!',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80',
   },
 ]
+
 
 function ReviewCard({ review }) {
   return (
@@ -46,11 +47,22 @@ function ReviewCard({ review }) {
         <div>
           <p className="text-white font-semibold text-sm">{review.name}</p>
           <div className="flex gap-0.5 mt-0.5">
-            {[1, 2, 3, 4, 5].map((s) => (
-              <span key={s} style={{ color: s <= review.rating ? '#f59e0b' : '#3a5a3a', fontSize: '12px' }}>
-                ★
-              </span>
-            ))}
+            {[1, 2, 3, 4, 5].map((s) => {
+              const full = s <= Math.floor(review.rating)
+              const half = !full && s === Math.ceil(review.rating) && review.rating % 1 !== 0
+              return (
+                <span
+                  key={s}
+                  style={{
+                    color: full ? '#f59e0b' : half ? '#f59e0b' : '#3a5a3a',
+                    fontSize: '13px',
+                    opacity: half ? 0.6 : 1,
+                  }}
+                >
+                  ★
+                </span>
+              )
+            })}
           </div>
         </div>
       </div>

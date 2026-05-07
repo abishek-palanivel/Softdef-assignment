@@ -81,22 +81,22 @@ export default function Footer() {
             <ul className="flex flex-col gap-3">
               <li>
                 <Link href="#" className="text-sm transition-colors hover:text-white" style={{ color: '#7a9a7a' }}>
-                  About
+                  Home
                 </Link>
               </li>
               <li>
                 <Link href="#trending" className="text-sm transition-colors hover:text-white" style={{ color: '#7a9a7a' }}>
-                  Our Plants
+                  Type&apos;s Of plant&apos;s
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm transition-colors hover:text-white" style={{ color: '#7a9a7a' }}>
-                  Tours
+                  Contact
                 </Link>
               </li>
               <li>
-                <Link href="#o2" className="text-sm transition-colors hover:text-white" style={{ color: '#7a9a7a' }}>
-                  O₂ Plants
+                <Link href="#" className="text-sm transition-colors hover:text-white" style={{ color: '#7a9a7a' }}>
+                  Privacy
                 </Link>
               </li>
             </ul>
