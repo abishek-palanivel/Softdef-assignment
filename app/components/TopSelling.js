@@ -7,7 +7,7 @@ const plants = [
     desc: 'A beautiful foliage plant, perfect for low-light indoor spaces.',
     price: 'Rs. 300/-',
     rating: 4,
-    img: 'https://images.unsplash.com/photo-1611211232932-da3113c5b960?w=300&q=80',
+    img: 'https://images.unsplash.com/photo-1545241047-6083a3684587?w=400&q=80',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const plants = [
     desc: 'Elegant and sturdy, this plant thrives in moderate sunlight.',
     price: 'Rs. 380/-',
     rating: 4,
-    img: 'https://images.unsplash.com/photo-1478081153893-44c852d0a3d8?w=300&q=80',
+    img: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&q=80',
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const plants = [
     desc: 'Minimal care, maximum impact. Great for sunny windowsills.',
     price: 'Rs. 259/-',
     rating: 5,
-    img: 'https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=300&q=80',
+    img: 'https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=400&q=80',
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const plants = [
     desc: 'Known for its iconic split leaves and tropical aesthetic.',
     price: 'Rs. 400/-',
     rating: 4,
-    img: 'https://images.unsplash.com/photo-1572688484438-313a6e50c333?w=300&q=80',
+    img: 'https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=400&q=80',
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const plants = [
     desc: 'Hardy, drought-tolerant, and ideal for beginners.',
     price: 'Rs. 450/-',
     rating: 4,
-    img: 'https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=300&q=80',
+    img: 'https://images.unsplash.com/photo-1572688484438-313a6e50c333?w=400&q=80',
   },
   {
     id: 6,
@@ -47,9 +47,10 @@ const plants = [
     desc: 'Striking architectural plant that thrives with minimal water.',
     price: 'Rs. 359/-',
     rating: 4,
-    img: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=300&q=80',
+    img: 'https://images.unsplash.com/photo-1510505751526-76254482fd38?w=400&q=80',
   },
 ]
+
 
 
 function StarRating({ count }) {
