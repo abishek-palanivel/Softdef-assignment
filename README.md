@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FloraVision - Plant Listing Page
+
+A pixel-perfect, responsive product listing page for a premium indoor plants store. Built with Next.js and Tailwind CSS based on the provided Figma design.
+
+## Live Demo
+
+[Deployed URL will be added here after deployment]
+
+## Tech Stack
+
+- **Next.js** (App Router)
+- **Tailwind CSS** for styling
+- **React.js** for component-based UI
+- **Google Fonts** (Inter)
+
+## Features
+
+- Fully responsive layout (320px to 1440px)
+- Dark theme with earthy green tones
+- Reusable React components
+- Smooth hover transitions and animations
+- Mobile hamburger navigation
+- Semantic HTML with accessibility support
+- Optimized images with Next.js Image component
+
+## Page Sections
+
+1. **Navbar** - Logo, nav links, search/cart icons, mobile hamburger menu
+2. **Hero Section** - Banner with heading, CTA buttons, mini testimonial, featured plant card
+3. **Trending Plants** - Two alternating horizontal plant cards with details and pricing
+4. **Top Selling Plants** - 3-column grid of 6 plant cards with ratings and add-to-cart
+5. **Customer Reviews** - 3 testimonial cards with avatars and star ratings
+6. **O₂ Plants Section** - Featured collection highlight with CTA
+7. **Footer** - Brand info, quick links, newsletter form, social media icons
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have Node.js (v18 or above) and npm installed.
+
+### Setup
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/floravision.git
+cd floravision
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+floravision/
+├── app/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Hero.js
+│   │   ├── TrendingPlants.js
+│   │   ├── TopSelling.js
+│   │   ├── CustomerReviews.js
+│   │   ├── O2Section.js
+│   │   └── Footer.js
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── public/
+├── next.config.mjs
+├── package.json
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed on Vercel. To deploy your own:
 
-## Deploy on Vercel
+1. Push the code to GitHub
+2. Import the repository on [Vercel](https://vercel.com)
+3. Vercel will auto-detect Next.js and deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built as part of the SoftDef Frontend Developer Internship Test.
